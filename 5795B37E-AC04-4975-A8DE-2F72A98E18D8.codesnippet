@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>frontAppBid</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>frontAppBid()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5795B37E-AC04-4975-A8DE-2F72A98E18D8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Lua</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>获取前台应用的 Bundle ID 或包名 返回前台应用程序的Bundle ID或包名，若无应用处于前台，则返回空字符串 </string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Lua frontAppBid</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

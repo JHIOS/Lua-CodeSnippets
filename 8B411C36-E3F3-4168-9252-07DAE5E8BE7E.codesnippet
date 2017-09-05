@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>isFrontApp</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>isFrontApp(&lt;#Bid#&gt;)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8B411C36-E3F3-4168-9252-07DAE5E8BE7E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Lua</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>根据应用的 Bundle ID 或包名判断应用是否处于前台  0 == 不在前台运行；1 == 在前台运行 </string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Lua isFrontApp</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
