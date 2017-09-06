@@ -3,19 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>os.execute</string>
+	<string>jxtab</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>os.execute("&lt;#....#&gt;")</string>
+	<string>function jxtab(tab)
+    local result = ""
+    for k,v in pairs(tab) do
+        local info = ""
+        if type(v) == "table" then
+            info = jxtab(v)
+            info = "{\n"..info.."}"
+            else
+            info = v
+        end
+        result = result .. k ..":"..info.."\n"
+    end
+    return result;
+end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D3D746F2-2FEB-4F9D-8D8A-F2D50B10AF83</string>
+	<string>24DAB36D-B155-4E5E-977F-7C7035223A9C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Lua</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>递归解析table 返回字符串</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Lua os.execute</string>
+	<string>Lua jxtab</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

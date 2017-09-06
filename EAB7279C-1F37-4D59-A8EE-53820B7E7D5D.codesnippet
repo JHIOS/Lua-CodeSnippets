@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>math.random</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>math.random(&lt;#x#&gt;,&lt;#y#&gt;)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EAB7279C-1F37-4D59-A8EE-53820B7E7D5D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Lua</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>取随机数  从x到Y之间</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Lua math.random</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
